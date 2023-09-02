@@ -180,7 +180,9 @@ class UserProfilePage extends StatelessWidget {
               ),
             ]),
             Expanded(child: TabBarView(children: [
-              tabBar(),
+              tabBar(items:8,userpost: Container(color: Colors.blue,)),
+              tabBar(items:13,userpost: Container(color: Colors.green,)),
+              tabBar(items:6,userpost: Container(color: Colors.red,)),
             ]))
           ],
         ),
