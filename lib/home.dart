@@ -7,6 +7,7 @@ import 'package:social_media_app_ui/post/postitems.dart';
 class UserHomePage extends StatelessWidget {
   UserHomePage({Key? key}) : super(key: key);
   final _controler = PageController(initialPage: 0);
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -17,8 +18,26 @@ class UserHomePage extends StatelessWidget {
           MyPost1(),
           MyPost2(),
           MyPost3(),
-      PostItems(like: "1.2M",comment: "6k",chanelname: "shapater",share: "1.6k",hashtag: "  #reel #tiktok",username: "@kodo",userpost: Container(color: Colors.cyanAccent[400],)),
-      PostItems(like: "1.2M",comment: "6k",chanelname: "shapater",share: "1.6k",hashtag: "  #reel #tiktok",username: "@kodo",userpost: Container(color: Colors.redAccent[700],)),
+          PostItems(
+              like: "1.2M",
+              comment: "6k",
+              chanelname: "shapater",
+              share: "1.6k",
+              hashtag: "  #reel #tiktok",
+              username: "@kodo",
+              userpost: Container(
+                color: Colors.cyanAccent[400],
+              )),
+          PostItems(
+              like: "1.2M",
+              comment: "6k",
+              chanelname: "shapater",
+              share: "1.6k",
+              hashtag: "  #reel #tiktok",
+              username: "@kodo",
+              userpost: Container(
+                color: Colors.redAccent[700],
+              )),
         ],
       ),
     );
