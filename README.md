@@ -1,4 +1,4 @@
-# social_media_app_ui
+# tiktok_like_app_ui
 
 A new Flutter project.
 
