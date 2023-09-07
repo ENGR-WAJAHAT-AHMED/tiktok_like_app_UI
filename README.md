@@ -1,6 +1,16 @@
-# social_media_app_ui
+# TikTok-Like App UI in Flutter
 
-A new Flutter project.
+# Overview
+
+This Flutter project is a TikTok-like app UI, designed to replicate the user interface and user experience of the popular short video-sharing app, TikTok. It includes various screens and features commonly found in TikTok, such as video feeds, user profiles, likes, comments, and more.
+
+The primary goal of this project is to showcase how to create a TikTok-like user interface using Flutter and Dart. It serves as an educational resource for Flutter developers interested in building visually appealing and interactive mobile applications.
+
+# Features
+- Video Feed: Display a feed of short videos.
+- User Profiles: View user profiles with profile pictures and follower counts.
+- Likes and Comments: Interact with videos by liking and commenting.
+- Video Playback: Play short videos within the app.
 
 ## Getting Started
 
